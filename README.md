@@ -28,15 +28,9 @@
     Data retrieval
 
 # v0.1
-[] Simple backtester
-[] SMA - Simple Moving Average strategy
-[] Compute performance from the SMA strategy
-
-- BACKTESTER
-    Pull some data from an exchange
-    Feed the data into the strategy
-- SERVER
-    Simple moving average strategy will decide to buy/sell from that
-    Position store
-
-    
+[x] Pull some data from an exchange
+    [x] Normalize the data into pandas/numPy array
+[] Build the SMA strategy
+[] Apply the SMA strategy to make a buy/sell decision
+[] Feed the historical data into the strategy
+[] Determine the valuation of the position at the end of the strategy being performed over the data

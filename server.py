@@ -1,5 +1,9 @@
+# Market data handler
+# Event processing engine
+# Order manager
+# Risk manager
+
 def strategy(input):
-    # takes market data as input
-    # use a SMA to decide buy/sell
-    # adds/removes from position
+    # algorithm for making a decision to buy/sell
+    # outputs whether there should be a buy/sell
     print('strategy')
